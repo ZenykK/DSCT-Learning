@@ -1,0 +1,39 @@
+package console_interpreter;
+
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+import java.io.Console;
+import java.util.Scanner;
+
+public class Console_interpreter_main {
+
+	//Echo an input message in the console
+	static void echo (String input_message) throws IOException {
+		
+		input_message = xxx.readLine("echo ");
+		System.out.println("Reply:"+input_message);
+	
+	}
+	
+	//Ping a socket
+	/*static void ping () {
+		
+	}*/
+	
+	//Login to the server
+	/*static void login () {
+		
+	}*/
+	
+	//Show a list of current users
+	/*static void list () {
+		
+	}*/
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

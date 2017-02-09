@@ -11,7 +11,7 @@ public class Console_interpreter_main {
 	//Echo an input message in the console
 	static void echo (String input_message) throws IOException {
 		
-		input_message = xxx.readLine("echo ");
+		/*input_message = xxx.readLine("echo ");*/
 		System.out.println("Reply:"+input_message);
 	
 	}
@@ -28,6 +28,11 @@ public class Console_interpreter_main {
 	
 	//Show a list of current users
 	/*static void list () {
+		
+	}*/
+	
+	//Terminates the program
+	/*static void exit () {
 		
 	}*/
 	
