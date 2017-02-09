@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+E:\Github\DSCT-Learning\.metadata\.plugins\org.eclipse.jdt.core
+310274781.index
