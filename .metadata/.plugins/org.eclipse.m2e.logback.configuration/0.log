@@ -127,3 +127,49 @@
 2017-02-09 17:55:33,547 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
 2017-02-09 17:55:33,551 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-02-09 17:55:33,559 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
+2017-02-10 16:03:24,463 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-02-10 16:04:10,021 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DSCT-Learning-Projects:Project-1-Console-Interpreter:0.0.1-SNAPSHOT @ D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\pom.xml.
+2017-02-10 16:04:15,999 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 16:04:16,247 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DSCT-Learning-Projects:Project-1-Console-Interpreter:0.0.1-SNAPSHOT @ D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\pom.xml.
+2017-02-10 16:04:16,270 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
+2017-02-10 16:04:16,274 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 16:04:16,322 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
+2017-02-10 16:04:17,910 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 16:04:17,986 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
+2017-02-10 16:04:17,988 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 16:04:18,120 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
+2017-02-10 16:05:44,577 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-10 16:05:45,626 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DSCT-Learning-Projects:Project-1-Console-Interpreter:0.0.1-SNAPSHOT @ D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\pom.xml.
+2017-02-10 16:05:46,344 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Project-1-Console-Interpreter/src/main/java
+2017-02-10 16:05:46,345 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Project-1-Console-Interpreter/src/test/java
+2017-02-10 16:05:46,489 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-02-10 16:05:46,820 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 16:05:46,833 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
+2017-02-10 16:05:46,836 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 16:05:46,843 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
+2017-02-10 17:33:44,322 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:33:44,353 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
+2017-02-10 17:33:44,357 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:33:44,375 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
+2017-02-10 17:33:48,434 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-10 17:33:57,725 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DSCT-Learning-Projects:Project-1-Console-Interpreter:0.0.1-SNAPSHOT @ D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\pom.xml.
+2017-02-10 17:33:59,496 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Project-1-Console-Interpreter/src/main/java
+2017-02-10 17:33:59,497 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Project-1-Console-Interpreter/src/test/java
+2017-02-10 17:33:59,590 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2017-02-10 17:33:59,822 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:33:59,886 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
+2017-02-10 17:33:59,890 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:33:59,902 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
+2017-02-10 17:41:03,431 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:41:03,475 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
+2017-02-10 17:41:03,477 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:41:03,488 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
+2017-02-10 17:50:07,504 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-10 17:50:09,727 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DSCT-Learning-Projects:Project-1-Console-Interpreter:0.0.1-SNAPSHOT @ D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\pom.xml.
+2017-02-10 17:50:10,560 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Project-1-Console-Interpreter/src/main/java
+2017-02-10 17:50:10,560 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Project-1-Console-Interpreter/src/test/java
+2017-02-10 17:50:10,683 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-02-10 17:50:10,939 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:50:11,006 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\main\resources
+2017-02-10 17:50:11,010 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-10 17:50:11,019 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\DSCT-Learning\Project-1-Console-Interpreter\src\test\resources
