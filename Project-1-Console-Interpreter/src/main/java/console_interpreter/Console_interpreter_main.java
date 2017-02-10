@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Console_interpreter_main {
 
-	//Echo an input message in the console
+	//Echo an input message in the console. Syntax: echo <text:String>
 	static void echo (String input_message) throws IOException {
 		
 		/*input_message = xxx.readLine("echo ");*/
@@ -16,18 +16,28 @@ public class Console_interpreter_main {
 	
 	}
 	
-	//Ping a socket
+	//Ping a socket. Syntax: ping <ip-address/domain>
 	/*static void ping () {
 		
 	}*/
 	
-	//Login to the server
+	//Login to the server. Syntax: login <username:String> <password:String>
 	/*static void login () {
 		
 	}*/
 	
 	//Show a list of current users
 	/*static void list () {
+		
+	}*/
+	
+	//Send a message to selected user. Syntax: msg <name:String> <text:String>
+	/*static void msg () {
+		
+	}*/
+	
+	//Send a file to the specified user. SYntax: file <destinationUser:String> <filename:String>
+	/*static void file () {
 		
 	}*/
 	
