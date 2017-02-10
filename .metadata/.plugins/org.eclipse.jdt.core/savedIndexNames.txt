@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 INDEX VERSION 1.129+D:\GitHub\DSCT-Learning\.metadata\.plugins\org.eclipse.jdt.core
+=======
+INDEX VERSION 1.129+E:\Github\DSCT-Learning\.metadata\.plugins\org.eclipse.jdt.core
+>>>>>>> b320095472c4103f5968e0ce271c45e7975b4830
