@@ -1,0 +1,5 @@
+package console_interpreter_alternative;
+
+public interface Interpreter {
+
+}

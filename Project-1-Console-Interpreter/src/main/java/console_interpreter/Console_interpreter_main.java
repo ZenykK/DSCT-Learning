@@ -5,12 +5,14 @@ import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.Console;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Console_interpreter_main {
 
 	//Echo an input message in the console. Syntax: echo <text:String>
 	static void echo (String input_message) throws IOException {
 		
+		input_message = user_context;
 		/*input_message = xxx.readLine("echo ");*/
 		System.out.println("Reply:"+input_message);
 	
@@ -51,17 +53,32 @@ public class Console_interpreter_main {
 		System.out.println("Welcome to Console Interpreter by Zenyk!\nPlease type your input below:\n");
 		Scanner user_input = new Scanner (System.in);
 		String key_word = user_input.next();
-		//String echo = 1234;
 		String user_context = user_input.nextLine();
 		System.out.println(key_word);
 	    System.out.println(user_context);
 		//user_input.close();
-		if (key_word.equals("echo")) {
+		while (!exitCondition) {
 			
-			System.out.println("Reply:"+user_context);
+		
+	    if (key_word.equals("echo") || key_word.equals("Echo")) {
+			
+			
+			
+			/**Below I just had fun with <code>swing</code> and displayed reply in a pop-up window.
+			*The window will appear below all the other windows.*/
+			//JOptionPane.showMessageDialog(null, "Reply:"+user_context);
 		}
+		
+	    else if (key_word.equals("ping") || key_word.equals("Ping")){
+			
+		}
+		
 		else System.out.println("Type a valid command!");
 		
+		}
 	}
 
+	//Privates
+	private static final String fExit = "exit";
+	
 }

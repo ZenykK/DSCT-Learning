@@ -5,9 +5,11 @@
 			<item value="DSCT-Learning-Projects"/>
 		</list>
 		<list key="name">
+			<item value="Console-Interpreter-Alternative"/>
 			<item value="Console-Interpreter"/>
 		</list>
 		<list key="artifactId">
+			<item value="Console-Interpreter-Alternative"/>
 			<item value="Project-1-Console-Interpreter"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -46,6 +48,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Github\DSCT-Learning\Project-1-Console-Interpreter"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
