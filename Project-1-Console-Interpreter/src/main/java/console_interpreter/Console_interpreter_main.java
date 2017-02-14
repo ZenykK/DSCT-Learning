@@ -51,22 +51,17 @@ public class Console_interpreter_main {
 		System.out.println("Welcome to Console Interpreter by Zenyk!\nPlease type your input below:\n");
 		Scanner user_input = new Scanner (System.in);
 		String key_word = user_input.next();
+		//String echo = 1234;
 		String user_context = user_input.nextLine();
 		System.out.println(key_word);
-		//System.out.println(user_input.nextLine());
+	    System.out.println(user_context);
 		//user_input.close();
-		if (key_word != "quit") {
-			System.out.println("Test!");
-			//if (key_word == "echo") {
-			//	System.out.println("Reply: "+user_context);
-			//}
-			//else System.out.println("Type a valid command!");
+		if (key_word.equals("echo")) {
+			
+			System.out.println("Reply:"+user_context);
 		}
-		else if (key_word == "quit") {
-			System.out.println("Closing the program!");
-			user_input.close();
-		}
-		else System.out.println("Invalid input!");
+		else System.out.println("Type a valid command!");
+		
 	}
 
 }
