@@ -12,10 +12,10 @@ public class Console_interpreter_main {
 	//Echo an input message in the console. Syntax: echo <text:String>
 	static void echo (String input_message) throws IOException {
 		
-		System.out.println("Reply:"+input_message);
+		//System.out.println("Reply:"+input_message);
 		/**Below I just had fun with <code>swing</code> and displayed reply in a pop-up window.
 		*The window will appear below all the other windows.*/
-		//JOptionPane.showMessageDialog(null, "Reply:"+input_message);
+		JOptionPane.showMessageDialog(null, "Reply:"+input_message);
 	
 	}
 	

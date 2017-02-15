@@ -55,8 +55,8 @@ public class Console_interpreter_main {
 		Scanner user_input = new Scanner (System.in);
 		String key_word = user_input.next();
 		String user_context = user_input.nextLine();
-		//System.out.println(key_word);
-	    //System.out.println(user_context);
+		System.out.println(key_word);
+	    System.out.println(user_context);
 		//user_input.close();
 		while (true) {
 		    try {
