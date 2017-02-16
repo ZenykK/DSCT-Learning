@@ -8,9 +8,7 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Console_interpreter_main {
-	
-	Boolean exitCondition = false;
-	
+			
 	//Echo an input message in the console. Syntax: echo <text:String>
 	static void echo (String input_message) throws IOException {
 		
@@ -18,37 +16,56 @@ public class Console_interpreter_main {
 		/**Below I just had fun with <code>swing</code> and displayed reply in a pop-up window.
 		*The window will appear below all the other windows.*/
 		//JOptionPane.showMessageDialog(null, "Reply:"+input_message);
+		//key_word = "";
 	
 	}
 	
 	//Ping a socket. Syntax: ping <ip-address/domain>
-	/*static void ping (Socket socket) {
-		
-	}*/
+	static void ping (String socket) {
+		System.out.println("You are trying to ping: "+socket);
+	}
 	
 	//Login to the server. Syntax: login <username:String> <password:String>
-	/*static void login () {
-		
-	}*/
+	static void login (String usernameAndPassword) {
+		String username = usernameAndPassword.split(" ")[0];
+		String password = usernameAndPassword.split(" ")[1];
+		System.out.println(username);
+		System.out.println(password);
+		/**There is also an opportunity to split a line in a <code>for</code> cycle:
+		 * <code>
+		 * for (String outputString : inputString.split("delimiter", numberOfPartsToSplitTo)) {
+		 * System.out.print(outputString);
+		 * }
+		 * </code>
+		 * Or we can put the resulting parts into a string array:
+		 * <code>
+		 * String[] outputArrayOfStrings = "";
+		 * for (String outputString : inputString.split("delimiter", numberOfPartsToSplitTo)) {
+		 * outputArrayOfStrings = outputString;
+		 * }
+		 * </code>
+		 */
+	}
 	
 	//Show a list of current users
-	/*static void list () {
-		
-	}*/
+	static void list (String[] active_users) {
+		System.out.println("The list of active users:");
+	}
 	
 	//Send a message to selected user. Syntax: msg <name:String> <text:String>
-	/*static void msg () {
-		
-	}*/
+	static void msg (String users_message) {
+		System.out.println("Message sent!");
+	}
 	
 	//Send a file to the specified user. SYntax: file <destinationUser:String> <filename:String>
-	/*static void file () {
-		
-	}*/
+	static void file (String filename) {
+		System.out.println("File sent!");
+	}
 	
 	//Terminates the program
 	static void exit () {
 		exitCondition = true;
+		System.exit(0);
 	}
 	
 	public static void main(String[] args) throws Exception {
@@ -56,54 +73,51 @@ public class Console_interpreter_main {
 		System.out.println("Welcome to Console Interpreter by Zenyk!\nPlease type your input below:\n");
 		Scanner user_input = new Scanner (System.in);
 		String key_word = user_input.next();
-		String user_context = user_input.nextLine();
-		Boolean exitCondition = false;
+		String user_context = user_input.nextLine().trim();
 		//System.out.println(key_word);
 	    //System.out.println(user_context);
 		//user_input.close();
 		while (!exitCondition) {
-		    try {
+			try {
 				if (key_word.equals("echo") || key_word.equals("Echo") || key_word.equals("ECHO")) {
 	
 					echo(user_context);
-					//key_word = "";
 	
 				}
 	
 				else if (key_word.equals("ping") || key_word.equals("Ping") || key_word.equals("PING")) {
 	
-					//System.out.println("You are trying to ping"+user_context);
-					//ping(user_context);
+					ping(user_context);
 	
 				}
 				
 				else if (key_word.equals("login") || key_word.equals("Login") || key_word.equals("LOGIN")) {
 					
-					//login(user_context);
+					login(user_context);
 	
 				}
 				
 				else if (key_word.equals("list") || key_word.equals("List") || key_word.equals("LIST")) {
 					
-					//list(user_context);
+					list(active_users);
 	
 				}
 				
 				else if (key_word.equals("msg") || key_word.equals("Msg") || key_word.equals("MSG")) {
 					
-					//msg(user_context);
+					msg(user_context);
 	
 				}
 				
 				else if (key_word.equals("file") || key_word.equals("File") || key_word.equals("FILE")) {
 					
-					//file(user_context);
+					file(user_context);
 	
 				}
 				
 				else if (key_word.equals("exit") || key_word.equals("Exit") || key_word.equals("EXIT")) {
 					
-					//exit();
+					exit();
 						
 				}
 	
@@ -120,6 +134,6 @@ public class Console_interpreter_main {
 	}
 
 	//Privates
-	private static final String fExit = "exit";
-	
+	private static Boolean exitCondition = false;
+	private static String[] active_users;
 }

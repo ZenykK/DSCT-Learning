@@ -39,7 +39,7 @@ public class Console_interpreter_main {
 		 * </code>
 		 * Or we can put the resulting parts into a string array:
 		 * <code>
-		 * String[] outputArrayOfStrings = "";
+		 * String[] outputArrayOfStrings;
 		 * for (String outputString : inputString.split("delimiter", numberOfPartsToSplitTo)) {
 		 * outputArrayOfStrings = outputString;
 		 * }
