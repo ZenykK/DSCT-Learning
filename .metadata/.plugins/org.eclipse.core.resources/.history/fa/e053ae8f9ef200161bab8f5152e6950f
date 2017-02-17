@@ -1,0 +1,5 @@
+package console_interpreter_alternative;
+
+public final class InheritanceInterpreter {
+
+}
