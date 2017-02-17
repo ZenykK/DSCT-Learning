@@ -72,13 +72,15 @@ public class Console_interpreter_main {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Console Interpreter by Zenyk!\nPlease type your input below:\n");
 		Scanner user_input = new Scanner (System.in);
-		String key_word = user_input.next();
-		String user_context = user_input.nextLine().trim();
+		//String key_word = user_input.next();
+		//String user_context = user_input.nextLine().trim();
 		//System.out.println(key_word);
 	    //System.out.println(user_context);
 		//user_input.close();
 		while (!exitCondition) {
 			try {
+				String key_word = user_input.next();
+				String user_context = user_input.nextLine().trim();
 				if (key_word.equals("echo") || key_word.equals("Echo") || key_word.equals("ECHO")) {
 	
 					echo(user_context);
